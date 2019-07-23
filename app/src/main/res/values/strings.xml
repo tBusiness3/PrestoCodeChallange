@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CodeChallenge</string>
+    <string name="txt_summon_server">Request Server</string>
+    <string name="txt_pay">Payment done, No Receipt</string>
+    <string name="txt_request_receipt">Payment done, Request Receipt</string>
+    <string name="txt_ready_to_pay">Ready To Pay</string>
+    <string name="txt_cancel">Cancel</string>
+</resources>

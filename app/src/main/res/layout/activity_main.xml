@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_summonServer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_summon_server" />
+
+        <Button
+            android:id="@+id/btn_readyToPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_ready_to_pay" />
+
+        <Button
+            android:id="@+id/btn_requestRecept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_request_receipt" />
+
+        <Button
+            android:id="@+id/btn_Pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_pay" />
+
+        <Button
+            android:id="@+id/bt_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_cancel" />
+
+        <TextView
+            android:id="@+id/tv_textViewFlashing"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
